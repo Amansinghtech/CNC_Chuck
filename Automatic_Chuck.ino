@@ -180,7 +180,7 @@ void resetJawPosition(String name, Servo motor, int limitPin) {
 
 void resetAllJaws() {
   lcd.clear();
-  Servo motor = servo_jaw_1;
+  // Servo motor = servo_jaw_1;
 
   lcd.setCursor(0,0);
   lcd.print("Resetting JAWs!!");
